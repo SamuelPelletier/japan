@@ -2,21 +2,21 @@
   "images": [
     {
       "title": "Place impérial",
-      "url": "/img/gallery/gallery-1.jpg",
+      "url": "img/gallery/gallery-1.jpg",
       "tags": [
         "tokyo"
       ]
     },
     {
       "title": "Chateau d'Osaka",
-      "url": "/img/gallery/gallery-2.jpg",
+      "url": "img/gallery/gallery-2.jpg",
       "tags": [
         "osaka"
       ]
     },
     {
       "title": "10000 torii",
-      "url": "/img/gallery/gallery-3.jpg",
+      "url": "img/gallery/gallery-3.jpg",
       "tags": [
         "kobe"
       ]

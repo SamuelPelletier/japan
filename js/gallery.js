@@ -1,5 +1,5 @@
 function fillGallery() {
-    $.getJSON("/config/image.json", function (data) {
+    $.getJSON("config/image.json", function (data) {
         $.each(data.images, function (i) {
             var elem = data.images[i];
             $('.imageGallery1').append("<div class='col-lg-3 col-md-4 col-sm-6 " + elem.tags.join(" ") + "'>" +
