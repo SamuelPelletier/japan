@@ -16,7 +16,6 @@
     /*  Isotope Fillter js
     /*----------------------------------------------------*/
     function gallery_isotope() {
-        console.log($('.gallery_f_inner').length)
         if ($('.gallery_f_inner').length) {
 
             // Activate isotope in container
@@ -50,7 +49,7 @@
     }
 
     var checkExist = setInterval(function () {
-        if ($('.gallery_f_inner').length) {
+        if ($('.h_gallery_item').length) {
             clearInterval(checkExist);
             gallery_isotope();
         }

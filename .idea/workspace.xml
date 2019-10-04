@@ -4,6 +4,87 @@
     <list default="true" id="0c65a02f-17b6-4fef-9337-3bbcec204157" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/banner/banner-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/banner/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/banner/home-banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/banner/home-banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/add.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/author.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/c1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/c2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/c3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/c4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/c5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/c6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/cat-post/cat-post-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/cat-post/cat-post-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/cat-post/cat-post-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/feature-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/main-blog/m-blog-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/main-blog/m-blog-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/main-blog/m-blog-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/main-blog/m-blog-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/main-blog/m-blog-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/next.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/popular-post/post1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/popular-post/post2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/popular-post/post3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/popular-post/post4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/post-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/post-img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/prev.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/a2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/disabled-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/disabled-radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/f1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/f2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/f3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/f4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/f5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/f6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/f7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/f8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/g1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/g2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/g3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/g4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/g5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/g6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/g7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/g8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/primary-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/primary-radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/success-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/success-radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/user1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/user2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/find-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/find-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gallery/gallery-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery/gallery-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gallery/gallery-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gallery/gallery-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gallery/gallery-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gallery/gallery-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery/gallery-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gallery/gallery-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery/gallery-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gallery/gallery-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gallery/gallery-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gallery/gallery-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gallery/gallery-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gallery/gallery-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gallery/gallery-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/instagram/ins-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/instagram/ins-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/instagram/ins-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/instagram/ins-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/instagram/ins-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/instagram/ins-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/japan/japan-parc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/testimonials/test-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/autoloader.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/autoloader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/theme.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,36 +94,72 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/theme.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="58" selection-end-line="330" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/banner.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gallery.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/autoloader.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="736">
+              <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/theme.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="52" column="38" lean-forward="true" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/gallery.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/image.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="23" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about-us.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
               <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
@@ -51,40 +168,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-              <folding>
-                <element signature="e#12467#12473#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/autoloader.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about-us.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/menu.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -92,17 +179,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="176">
+              <caret line="11" column="37" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="11" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -121,7 +199,14 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>isotop</find>
+      <find>banner.j</find>
+      <find>console.log</find>
+      <find>\&quot;</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>'</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -139,11 +224,13 @@
         <option value="$PROJECT_DIR$/gallery-osaka.html" />
         <option value="$PROJECT_DIR$/gallery-tokyo.html" />
         <option value="$PROJECT_DIR$/menu.html" />
-        <option value="$PROJECT_DIR$/js/autoloader.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/content.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/js/autoloader.js" />
+        <option value="$PROJECT_DIR$/content.html" />
         <option value="$PROJECT_DIR$/js/theme.js" />
+        <option value="$PROJECT_DIR$/js/gallery.js" />
+        <option value="$PROJECT_DIR$/config/image.json" />
       </list>
     </option>
   </component>
@@ -211,25 +298,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570002918435</updated>
-      <workItem from="1570002919547" duration="7161000" />
+      <workItem from="1570002919547" duration="7406000" />
+      <workItem from="1570179271648" duration="4247000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7161000" />
+    <option name="totallyTimeSpent" value="11653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2526596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295711" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -237,27 +320,23 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/prepros-6.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3515" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-content.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/prepros-6.config" />
+    <entry file="file://$PROJECT_DIR$/about-content.html" />
     <entry file="file://$PROJECT_DIR$/css.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -279,13 +358,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript.html" />
     <entry file="file://$PROJECT_DIR$/gallery-tokyo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -300,17 +373,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gallery.html">
+    <entry file="file://$PROJECT_DIR$/banner.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/autoloader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+        <state relative-caret-position="96">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -321,55 +387,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about-us.html">
+    <entry file="file://$PROJECT_DIR$/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        <state relative-caret-position="272">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/banner.html">
+    <entry file="file://$PROJECT_DIR$/js/autoloader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="736">
+          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/theme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="52" column="38" lean-forward="true" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content.html">
+    <entry file="file://$PROJECT_DIR$/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-          <folding>
-            <element signature="e#12467#12473#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/js/gallery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="31" />
+        <state relative-caret-position="48">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/menu.html">
+    <entry file="file://$PROJECT_DIR$/config/image.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/theme.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="58" selection-end-line="330" selection-end-column="10" />
+          <caret line="17" column="23" selection-end-line="24" selection-end-column="1" />
         </state>
       </provider>
     </entry>
