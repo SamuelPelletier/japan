@@ -10,3 +10,12 @@
 .banner_content h1 {
     text-shadow: 10px 5px 5px black;
 }
+
+.fa-youtube-play {
+    font-size: medium;
+}
+
+.small-banner {
+    height: 80px !important;
+    min-height: 0 !important;
+}
