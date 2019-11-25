@@ -27,7 +27,7 @@ function fillGallery() {
         });
         if ($(".h_gallery_item img").length === 0) {
             $(".imageGallery1").replaceWith("<p>Il n'y a pas encore de photos sur cette préfecture :(</p>" +
-                "<p>Retourner à la <a href='/map.html'>carte</a> ou à la <a href='/gallery.html'>gallerie</a>.</p>")
+                "<p>Retourner à la <a href='map.html'>carte</a> ou à la <a href='gallery.html'>gallerie</a>.</p>")
         }
     });
 }

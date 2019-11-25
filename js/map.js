@@ -76,7 +76,7 @@ $(function () {
                     }
                     $('#exampleModal').modal();
                     $('#exampleModal .btn-primary').on('click', function () {
-                        window.location.href = "/gallery.html?p=" + data.code
+                        window.location.href = "gallery.html?p=" + data.code
                     })
                 }
             }
