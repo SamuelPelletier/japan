@@ -3,23 +3,17 @@
     {
       "title": "Place impérial",
       "url": "img/gallery/gallery-1.jpg",
-      "tags": [
-        "13"
-      ]
+      "region": 3
     },
     {
       "title": "Chateau d'Osaka",
       "url": "img/gallery/gallery-2.jpg",
-      "tags": [
-        "27"
-      ]
+      "region": 6
     },
     {
       "title": "10000 torii",
       "url": "img/gallery/gallery-3.jpg",
-      "tags": [
-        "28"
-      ]
+      "region": 6
     }
   ]
 }

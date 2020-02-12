@@ -65,31 +65,33 @@ $(function () {
                 width: 800,
                 fontSize: 15,
                 fontColor: "black",
-                onSelect: function (data) {
-                    var numberPhotos = getNumberPhotosByPrefectureCode(data.code.toString())
+                onSelect: function (prefecture) {
+                    region = prefecture.area;
+                    var numberPhotos = getNumberPhotosByRegion(region);
                     if (numberPhotos === 0) {
-                        $('#exampleModal .modal-body').html("<p>Il n'y a malheureusement pas encore de photos pour cette préfecture :(</p>");
+                        $('#exampleModal .modal-body').html("<p>Il n'y a malheureusement pas encore de photos pour cette région :(</p>");
                         $('#exampleModal .btn-primary').hide()
                     } else {
-                        $('#exampleModal .modal-body').html('<p>Souhaitez-vous accéder aux photos de la préfecture de ' + data.englishName + ' ? <br>Il y a ' + numberPhotos + ' photo' + (numberPhotos > 1 ? 's' : '') + ' :)</p>');
+                        $('#exampleModal .modal-body').html('<p>Souhaitez-vous accéder aux photos de la région de ' + region.name + ' ? <br>Il y a ' + numberPhotos + ' photo' + (numberPhotos > 1 ? 's' : '') + ' :)</p>');
                         $('#exampleModal .btn-primary').show()
                     }
                     $('#exampleModal').modal();
                     $('#exampleModal .btn-primary').on('click', function () {
-                        window.location.href = "gallery.html?p=" + data.code
+                        window.location.href = "gallery.html?p=" + region.code
                     })
                 }
             }
         );
 
-        function getNumberPhotosByPrefectureCode(prefetcureCode) {
+        function getNumberPhotosByRegion(region) {
             var counter = 0;
             $.each(photos.images, function (i) {
                 var elem = photos.images[i];
-                if (elem.tags.includes(prefetcureCode)) {
+                if (elem.region === region.code) {
                     counter++;
                 }
             });
+
             return counter;
         }
     });
