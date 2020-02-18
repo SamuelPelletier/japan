@@ -25,3 +25,8 @@
         max-width: 1201px;
     }
 }
+
+.vjs-big-play-button {
+    top: 40% !important;
+    left: 45% !important;
+}
