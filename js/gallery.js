@@ -12,7 +12,7 @@ function fillGallery() {
             $('.isotope_fillter').remove()
         }
         $.each(data.images, function (i) {
-            var elem = data.images[i];
+            var elem = data.images[data.images.length-1-i];
             if (elem.region == regionParam || regionParam == null) {
                 $('.imageGallery1').append("<div class='col-lg-3 col-md-4 col-sm-6 " + elem.region + "'>" +
                     "                <div class='h_gallery_item'>" +

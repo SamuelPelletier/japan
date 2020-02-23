@@ -45,6 +45,6 @@ $.getScript("vendors/japan-map/jquery.japan-map.js");
 $.getScript("js/jquery.ajaxchimp.min.js");
 $.getScript("js/mail-script.js");
 $.getScript("js/theme.js");
-$.getScript("js/gallery.js");
 $.getScript("js/main.js");
+$.getScript("js/gallery.js");
 $.getScript("js/map.js");
