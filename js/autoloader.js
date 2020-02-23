@@ -42,6 +42,7 @@ $.getScript("vendors/isotope/imagesloaded.pkgd.min.js");
 $.getScript("vendors/isotope/isotope-min.js");
 $.getScript("vendors/owl-carousel/owl.carousel.min.js");
 $.getScript("vendors/japan-map/jquery.japan-map.js");
+$.getScript("vendors/lightGallery-master/dist/js/lightgallery.min.js");
 $.getScript("js/jquery.ajaxchimp.min.js");
 $.getScript("js/mail-script.js");
 $.getScript("js/theme.js");

@@ -15,16 +15,21 @@ function fillGallery() {
             var elem = data.images[data.images.length-1-i];
             if (elem.region == regionParam || regionParam == null) {
                 $('.imageGallery1').append("<div class='col-lg-3 col-md-4 col-sm-6 " + elem.region + "'>" +
-                    "                <div class='h_gallery_item'>" +
+                    "                <div class='h_gallery_item' data-src='"+elem.url+"'>" +
                     "                    <img src='" + elem.url + "' alt=''>" +
                     "                    <div class='hover'>" +
-                    "                        <a href='#'><h4>" + elem.title + "</h4></a>" +
-                    "                        <a class='light' href='" + elem.url + "'><i class='fa fa-expand'></i></a>" +
+                    "                        <a><h4>" + elem.title + "</h4></a>" +
+                    "                        <a class='light'><i class='fa fa-expand'></i></a>" +
                     "                    </div>" +
                     "                </div>" +
                     "            </div>")
             }
         });
+		
+		$(".imageGallery1").lightGallery({
+			selector: '.h_gallery_item'
+		}); 
+		
         if ($(".h_gallery_item img").length === 0) {
             $(".imageGallery1").replaceWith("<p>Il n'y a pas encore de photos pour cette région :(</p>" +
                 "<p>Retourner à la <a href='map.html'>carte</a> ou à la <a href='gallery.html'>galerie</a>.</p>")
