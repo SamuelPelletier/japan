@@ -151,7 +151,7 @@
 
 .task--finish {
     border-left-color: #fa607e;
-    grid-column: 7 / span 1;
+    grid-column: 2 / span 1;
     grid-row: 4;
     margin-top: 15px;
     background: rgba(253, 197, 208, 0.7);
@@ -380,7 +380,7 @@
     background: #ff8ef1;
     border: 0;
     border-radius: 4px;
-    grid-column: 1 / span 2;
+    grid-column: 1 / span 1;
     grid-row: 4;
     align-self: end;
     color: #fff;
