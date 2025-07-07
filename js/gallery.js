@@ -5,7 +5,7 @@ function urlParam(name) {
 
 
 function fillGallery() {
-    $.getJSON("config/image.json", function (data) {
+    $.getJSON("img/gallery/image.json", function (data) {
         var regionParam = urlParam("p");
         if (regionParam != null) {
             $('#content').prepend('<h1>Région du ' + definition_of_english_name[regionParam]);
@@ -15,8 +15,8 @@ function fillGallery() {
             var elem = data.images[data.images.length-1-i];
             if (elem.region == regionParam || regionParam == null) {
                 $('.imageGallery1').append("<div class='col-lg-3 col-md-4 col-sm-6 " + elem.region + "'>" +
-                    "                <div class='h_gallery_item' data-src='"+elem.url+"'>" +
-                    "                    <img src='" + elem.url + "' alt=''>" +
+                    "                <div class='h_gallery_item' data-src='img/gallery/"+elem.url+"'>" +
+                    "                    <img src='img/gallery/" + elem.url + "' alt=''>" +
                     "                    <div class='hover'>" +
                     "                        <a><h4>" + elem.title + "</h4></a>" +
                     "                        <a class='light'><i class='fa fa-expand'></i></a>" +

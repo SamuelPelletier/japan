@@ -1,5 +1,5 @@
 $(function () {
-    $.getJSON("config/image.json", function (photos) {
+    $.getJSON("img/gallery/image.json", function (photos) {
         var areas = [
             {"code": 1, "name": "Hokkaidō", "color": "#ca93ea", "hoverColor": "#e0b1fb", "prefectures": [1]},
             {
