@@ -7,11 +7,138 @@
     <link rel="icon" href="img/favicon.png" type="image/png">
     <title>Gallery</title>
     <div w3-include-html="css.html"></div>
+    <style>
+    .gallery-card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      overflow: hidden;
+      transition: box-shadow 0.2s;
+      margin-bottom: 10px;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+    .gallery-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      transition: transform 0.2s;
+    }
+    .gallery-card:hover img {
+      transform: scale(1.05);
+    }
+    .gallery-desc {
+      font-size: 1rem;
+      color: #222;
+      margin-top: 8px;
+      font-weight: 500;
+      min-height: 2.5em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #pagination {
+      margin-top: 30px;
+      margin-bottom: 40px;
+    }
+    #pagination .pageBtn,
+    #pagination #prevPage,
+    #pagination #nextPage {
+      border-radius: 50px !important;
+      margin: 0 4px;
+      min-width: 38px;
+      min-height: 38px;
+      font-size: 1.1em;
+      border: none;
+      background: #f5f5f5;
+      color: #333;
+      transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+    }
+    #pagination .pageBtn.active,
+    #pagination .pageBtn:hover,
+    #pagination #prevPage:hover,
+    #pagination #nextPage:hover {
+      background: #ffd600;
+      color: #222;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    }
+    #pagination .btn-primary {
+      background: #ffd600 !important;
+      color: #222 !important;
+      border: none !important;
+    }
+
+    .imageGallery1 {
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+    @media (max-width: 991px) {
+      .imageGallery1 {
+        padding-left: 12px;
+        padding-right: 12px;
+      }
+    }
+
+    .year_filter_wrap {
+      margin: 32px 0 24px 0;
+    }
+    .year_filter {
+      padding: 0;
+      margin: 0;
+    }
+    .year_filter .list-inline-item {
+      margin: 0 10px;
+    }
+    .year_filter .list-inline-item a {
+      display: inline-block;
+      padding: 10px 28px;
+      border-radius: 30px;
+      background: #f5f5f5;
+      color: #222;
+      font-size: 1.15em;
+      font-weight: 500;
+      text-decoration: none;
+      transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+    }
+    .year_filter .list-inline-item.active a,
+    .year_filter .list-inline-item a:hover {
+      background: #ffd600;
+      color: #222;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    }
+    </style>
 </head>
 <body>
 <div w3-include-html="menu.html"></div>
 <div w3-include-html="small-banner.html"></div>
 <div id="content" w3-include-html="content.html"></div>
+
+<!-- BANDEAU DE FILTRES ICI -->
+<div class="year_filter_wrap text-center mb-3">
+    <ul class="year_filter list-inline">
+        <li class="list-inline-item active" data-year="2020"><a href="#">2020</a></li>
+        <!-- <li class="list-inline-item" data-year="2021"><a href="#">2021</a></li> -->
+    </ul>
+</div>
+
+<div class="isotope_fillter">
+    <ul class="gallery_filter list">
+        <li class="active" data-filter="*"><a href="#">All</a></li>
+        <li data-filter=".3"><a href="#">Kanto (Tokyo)</a></li>
+        <li data-filter=".6"><a href="#">Kansai (Osaka & Kyoto)</a></li>
+        <li data-filter=".1"><a href="#">Hokkaido</a></li>
+        <li data-filter=".10"><a href="#">Okinawa</a></li>
+        <li data-filter=".9"><a href="#">Kyūshū</a></li>
+        <li data-filter=".8"><a href="#">Shikoku</a></li>
+        <li data-filter=".4"><a href="#">Koshinetsu</a></li>
+        <li data-filter=".7"><a href="#">Chūgoku</a></li>
+    </ul>
+</div>
+
+<div class="imageGallery1 row"></div>
+<div id="pagination" class="text-center"></div>
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/autoloader.js"></script>
