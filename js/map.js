@@ -42,7 +42,8 @@ $(function () {
                     $('#exampleModal').modal();
                     console.log('region:', fullRegion, 'region.code:', fullRegion.code);
                     $('#exampleModal .btn-primary').off('click').on('click', function () {
-                        window.location.href = "gallery.html?p=" + fullRegion.code;
+                        var selectedYear = $('#yearSelect').val() || '2020';
+                        window.location.href = "gallery.html?p=" + fullRegion.code + "&year=" + selectedYear;
                     })
                 }
             }

@@ -13,6 +13,14 @@
 <div w3-include-html="small-banner.html"></div>
 <section class="find_view_area p_120">
     <div class="container">
+        <div class="form-group text-center mb-3">
+            <label for="yearSelect"><strong>Choisir une année :</strong></label>
+            <select id="yearSelect" class="form-control d-inline-block w-auto ml-2">
+                <option value="2016">2016</option>
+                <option value="2020" selected>2020</option>
+                <option value="2023">2023</option>
+            </select>
+        </div>
         <div id="map"></div>
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
              aria-hidden="true">
