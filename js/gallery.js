@@ -106,7 +106,8 @@ function renderPagination(page, totalPages) {
 }
 
 function fillGallery() {
-    $.getJSON("img/gallery/image.json", function (data) {
+    var yearParam = urlParam("year") || '2020';
+    $.getJSON(GALLERY_BASE_URL + yearParam + "/image.json", function (data) {
         galleryData = data.images.slice().reverse();
         currentPage = 1;
         renderGalleryPage(currentPage);
