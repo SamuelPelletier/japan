@@ -21,7 +21,7 @@ var areaToPrefectures = {
     10: [47]
 };
 
-const GALLERY_BASE_URL = 'https://195.15.228.129/japan/';
+const GALLERY_BASE_URL = 'https://image.japantrip.world/japan/';
 
 function renderGalleryPage(page) {
     var regionParam = urlParam("p");
