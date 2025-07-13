@@ -1,5 +1,7 @@
 $(function () {
-    $.getJSON("img/gallery/image.json", function (photos) {
+    const GALLERY_BASE_URL = 'https://image.japantrip.world/japan/';
+    var yearParam = '2020'; // ou récupère dynamiquement si besoin
+    $.getJSON(GALLERY_BASE_URL + yearParam + "/image.json", function (photos) {
         var areas = [
             {"code": 1, "name": "Hokkaidō", "color": "#ca93ea", "hoverColor": "#e0b1fb", "prefectures": [1]},
             {"code": 2, "name": "Tōhoku", "color": "#a7a5ea", "hoverColor": "#d6d4fd", "prefectures": [2, 3, 4, 5, 6, 7]},
