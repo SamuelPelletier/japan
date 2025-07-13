@@ -48,8 +48,7 @@ function renderGalleryPage(page) {
     $gallery.empty();
     imagesToShow.forEach(function(elem) {
         var safeTitle = escapeHtml(elem.title || '');
-        var yearFolder = elem.year || '2020';
-        var imagePath = yearFolder + '/' + elem.url;
+        var imagePath = yearParam + '/' + elem.url;
         $gallery.append(
             "<div class='col-lg-3 col-md-4 col-sm-6 mb-4'>" +
                 "<div class='gallery-card'>" +
