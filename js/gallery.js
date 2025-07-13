@@ -9,16 +9,16 @@ var currentPage = 1;
 var totalPages = 1;
 
 var areaToPrefectures = {
-    1: [1],
-    2: [2, 3, 4, 5, 6, 7],
-    3: [8, 9, 10, 11, 12, 13, 14],
+    1: [1], // Hokkaido
+    2: [2, 3, 4, 5, 6, 7], // Tohoku
+    3: [8, 9, 10, 11, 12, 13, 14], // Kanto
     4: [15, 16, 17, 18, 19, 20], // Koshinetsu
     5: [21, 22, 23, 24],         // Tokai
-    6: [25, 26, 27, 28, 29, 30],
-    7: [31, 32, 33, 34, 35],
-    8: [36, 37, 38, 39],
-    9: [40, 41, 42, 43, 44, 45, 46],
-    10: [47]
+    6: [25, 26, 27, 28, 29, 30], // Kansai
+    7: [31, 32, 33, 34, 35], // Chugoku
+    8: [36, 37, 38, 39], // Shikoku
+    9: [40, 41, 42, 43, 44, 45, 46], // Kyushu
+    10: [47] // Okinawa 
 };
 
 const GALLERY_BASE_URL = 'https://image.japantrip.world/japan/';
@@ -47,7 +47,7 @@ function renderGalleryPage(page) {
     var $gallery = $('.imageGallery1');
     $gallery.empty();
     imagesToShow.forEach(function(elem) {
-        var safeTitle = escapeHtml(elem.title);
+        var safeTitle = escapeHtml(elem.title || '');
         var yearFolder = elem.year || '2020';
         var imagePath = yearFolder + '/' + elem.url;
         $gallery.append(
@@ -56,7 +56,7 @@ function renderGalleryPage(page) {
                     "<a href='" + GALLERY_BASE_URL + imagePath + "' class='h_gallery_item' data-sub-html='<h4>" + safeTitle + "</h4>'>" +
                         "<img src='" + GALLERY_BASE_URL + imagePath + "' alt=''>" +
                     "</a>" +
-                    "<div class='gallery-desc'>" + safeTitle + "</div>" +
+                    (safeTitle ? ("<div class='gallery-desc'>" + safeTitle + "</div>") : "") +
                 "</div>" +
             "</div>"
         );
