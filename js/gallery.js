@@ -134,17 +134,15 @@ $(document).on('click', '.gallery_filter li', function(e) {
     $('.gallery_filter li').removeClass('active');
     $(this).addClass('active');
     var filter = $(this).data('filter');
+    var params = new URLSearchParams(window.location.search);
     if (filter === '*') {
-        history.replaceState(null, '', 'gallery.html');
-        currentPage = 1;
-        renderGalleryPage(currentPage);
+        params.delete('p');
     } else {
-        // Le filtre est du type .3, .6, etc. On enlève le point pour obtenir le numéro de région
         var region = filter.replace('.', '');
-        history.replaceState(null, '', 'gallery.html?p=' + region);
-        currentPage = 1;
-        renderGalleryPage(currentPage);
+        params.set('p', region);
     }
+    // Conserver le paramètre year si présent
+    window.location.search = params.toString();
 });
 
 $(document).on('click', '.year_filter li', function(e) {
