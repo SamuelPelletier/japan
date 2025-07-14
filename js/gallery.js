@@ -26,16 +26,17 @@ const GALLERY_BASE_URL = 'https://image.japantrip.world/japan/';
 function renderGalleryPage(page) {
     var regionParam = urlParam("p");
     var yearParam = urlParam("year") || '2020';
+    regionParam = regionParam ? Number(regionParam) : null;
     var filteredImages;
     if (regionParam && areaToPrefectures[regionParam]) {
         // p est un code de grande région
         filteredImages = galleryData.filter(function(elem) {
             // Accepte les images dont la région est le code de la grande région OU une préfecture de cette grande région
-            return Number(elem.region) === Number(regionParam) || areaToPrefectures[regionParam].includes(Number(elem.region));
+            return Number(elem.region) === regionParam || areaToPrefectures[regionParam].includes(Number(elem.region));
         });
     } else {
         filteredImages = galleryData.filter(function(elem) {
-            return (elem.region == regionParam || regionParam == null);
+            return (Number(elem.region) === regionParam || regionParam == null);
         });
     }
     totalPages = Math.ceil(filteredImages.length / IMAGES_PER_PAGE);
