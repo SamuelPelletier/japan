@@ -31,8 +31,8 @@ function renderGalleryPage(page) {
     if (regionParam && areaToPrefectures[regionParam]) {
         // p est un code de grande région
         filteredImages = galleryData.filter(function(elem) {
-            // Accepte les images dont la région est le code de la grande région OU une préfecture de cette grande région
-            return Number(elem.region) === regionParam || areaToPrefectures[regionParam].includes(Number(elem.region));
+            // Accepte les images dont la région est le code de la grande région
+            return Number(elem.region) === regionParam;
         });
     } else {
         filteredImages = galleryData.filter(function(elem) {
