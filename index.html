@@ -12,8 +12,91 @@
 <div w3-include-html="menu.html"></div>
 <div w3-include-html="banner.html"></div>
 <div id="content" w3-include-html="content.html"></div>
+<section class="find_view_area p_120">
+    <div class="container">
+        <div class="find_inner">
+            <img class="img-fluid" src="img/find-1.jpg" alt="">
+            <div class="find_text">
+                <div class="find_text_inner">
+                    <h4>Partez à l'aventure avec nous !</h4>
+                    <p>Découvrons le Japon ensemble au travers de nos voyages. Nous parcourons tout le pays afin de vous faire apprécier la beauté et la culture du soleil levant. Parmi ces photos, vous vous plongerez les montagnes d'Hokaido, les plages de Okinawa mais aussi de voir les cerisiers en fleurs à Kyoto ou bien encore les érables automnaux de Nara.
+                        De grandes aventures nous attendent encore, venez la partager avec nous en nous suivant à travers ce site et notre chaîne Youtube.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+<!-- Section équipe -->
+<section class="team_section p_120" style="margin-top:0px;">
+    <div class="container">
+        <h2 class="text-center mb-4" style="font-weight:700; letter-spacing:1px;">Les aventuriers</h2>
+        <div class="row justify-content-center" id="teamList"></div>
+    </div>
+</section>
+
+<script src="js/config.js"></script>
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/autoloader.js"></script>
+<script src="js/persons.js"></script>
+<script>
+$(function() {
+    var $team = $('#teamList');
+    PERSONS.forEach(function(person) {
+        $team.append(
+            `<div class="col-md-2 col-6 text-center mb-4">
+                <img src="${person.img}" alt="${person.name}" class="team-img" >
+                <div class="font-weight-bold">${person.name}</div>
+            </div>`
+        );
+    });
+});
+</script>
+<style>
+.team_section {
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+#teamList .team-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 24px;
+    border: 4px solid #960018;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+    margin: 0 auto 12px auto;
+    display: block;
+}
+#teamList .font-weight-bold {
+    font-size: 1.2em;
+    margin-top: 8px;
+    text-align: center;
+}
+#teamList .col-md-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.year_filter .list-inline-item.active a,
+.year_filter .list-inline-item a:hover,
+.gallery_filter li.active a,
+.gallery_filter li:hover a {
+    background: #960018 !important;
+    color: #fff !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+.year_filter .list-inline-item.active a *,
+.year_filter .list-inline-item a:hover *,
+.gallery_filter li.active a *,
+.gallery_filter li:hover a * {
+    color: #fff !important;
+}
+.year_filter .list-inline-item a {
+    background: #f5f5f5;
+    color: #222;
+    border: none;
+}
+</style>
 </body>
 </html>
