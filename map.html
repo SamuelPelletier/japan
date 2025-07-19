@@ -7,38 +7,56 @@
     <link rel="icon" href="img/favicon.png" type="image/png">
     <title>A propos</title>
     <div w3-include-html="css.html"></div>
+    <style>
+.year_filter_wrap {
+  margin: 32px 0 24px 0;
+}
+.year_filter {
+  padding: 0;
+  margin: 0;
+}
+.year_filter .list-inline-item {
+  margin: 0 10px;
+}
+.year_filter .list-inline-item a {
+  display: inline-block;
+  padding: 10px 28px;
+  border-radius: 30px;
+  background: #f5f5f5;
+  color: #222;
+  font-size: 1.15em;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+}
+.year_filter .list-inline-item.active a,
+.year_filter .list-inline-item a:hover {
+  background: #ffd600;
+  color: #222;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+</style>
 </head>
 <body>
 <div w3-include-html="menu.html"></div>
 <div w3-include-html="small-banner.html"></div>
 <section class="find_view_area p_120">
     <div class="container">
-        <div class="form-group text-center mb-3">
-            <label for="yearSelect"><strong>Choisir une année :</strong></label>
-            <select id="yearSelect" class="form-control d-inline-block w-auto ml-2">
-                <option value="2016">2016</option>
-                <option value="2020" selected>2020</option>
-                <option value="2023">2023</option>
-            </select>
-        </div>
+        <div class="year_filter_wrap text-center mb-3">
+    <ul class="year_filter list-inline">
+        <li class="list-inline-item" data-year="2016"><a href="#">2016</a></li>
+        <li class="list-inline-item active" data-year="2020"><a href="#">2020</a></li>
+        <li class="list-inline-item" data-year="2023"><a href="#">2023</a></li>
+    </ul>
+</div>
         <div id="map"></div>
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-             aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-                        <button type="button" class="btn btn-primary">Oui</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!-- Modale supprimée -->
     </div>
 </section>
+<script src="js/config.js"></script>
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/autoloader.js"></script>
+<script src="js/map.js"></script>
 </body>
 </html>

@@ -8,30 +8,14 @@ var galleryData = [];
 var currentPage = 1;
 var totalPages = 1;
 
-var areaToPrefectures = {
-    1: [1], // Hokkaido
-    2: [2, 3, 4, 5, 6, 7], // Tohoku
-    3: [8, 9, 10, 11, 12, 13, 14], // Kanto
-    4: [15, 16, 17, 18, 19, 20], // Koshinetsu
-    5: [21, 22, 23, 24],         // Tokai
-    6: [25, 26, 27, 28, 29, 30], // Kansai
-    7: [31, 32, 33, 34, 35], // Chugoku
-    8: [36, 37, 38, 39], // Shikoku
-    9: [40, 41, 42, 43, 44, 45, 46], // Kyushu
-    10: [47] // Okinawa 
-};
-
-const GALLERY_BASE_URL = 'https://image.japantrip.world/japan/';
-
 function renderGalleryPage(page) {
     var regionParam = urlParam("p");
     var yearParam = urlParam("year") || '2020';
     regionParam = regionParam ? Number(regionParam) : null;
     var filteredImages;
-    if (regionParam && areaToPrefectures[regionParam]) {
-        // p est un code de grande région
+    if (regionParam) {
+        const area = AREAS.find(a => a.code === regionParam);
         filteredImages = galleryData.filter(function(elem) {
-            // Accepte les images dont la région est le code de la grande région
             return Number(elem.region) === regionParam;
         });
     } else {
@@ -116,17 +100,10 @@ function fillGallery() {
     });
 }
 
-var definition_of_english_name = {
-    1: "Hokkaido", 3: "Kanto", 4: "Koshinetsu",
-    6: "Kansai", 7: "Chūgoku", 8: "Shikoku", 9: "Kyūshū", 10: "Okinawa"
-};
-
-var checkExist = setInterval(function () {
-    if ($('.imageGallery1').length) {
-        clearInterval(checkExist);
-        fillGallery();
-    }
-}, 100);
+function getRegionNameByCode(code) {
+    const area = AREAS.find(a => a.code === Number(code));
+    return area ? area.name : '';
+}
 
 $(document).on('click', '.gallery_filter li', function(e) {
     e.preventDefault();
@@ -164,14 +141,21 @@ function escapeHtml(text) {
 }
 
 $(function() {
+    fillGallery();
+    // Met à jour le filtre actif selon l'URL
     var regionParam = urlParam("p");
+    $('.gallery_filter li').removeClass('active');
     if (regionParam) {
-        $('.gallery_filter li').removeClass('active');
         var $li = $('.gallery_filter li[data-filter=".' + regionParam + '"]');
         if ($li.length) {
             $li.addClass('active');
+        } else {
+            $('.gallery_filter li[data-filter="*"]').addClass('active');
         }
+    } else {
+        $('.gallery_filter li[data-filter="*"]').addClass('active');
     }
+
     var yearParam = urlParam("year") || '2020';
     $('.year_filter li').removeClass('active');
     var $yearLi = $('.year_filter li[data-year="' + yearParam + '"]');
